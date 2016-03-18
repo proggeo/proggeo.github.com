@@ -5,8 +5,11 @@ description: ""
 category: 
 tags: []
 ---
+{% include JB/setup %}
 
-# Welcome to my blog
+<img src="{{ BASE_PATH }}/assets/img/welcome.jpg">
+
+## Welcome to my blog
 
 I am happy to see that anyone reading this. 
 
@@ -30,4 +33,3 @@ Have a nice day!
 
 Гарного дня!
 
-{% include JB/setup %}

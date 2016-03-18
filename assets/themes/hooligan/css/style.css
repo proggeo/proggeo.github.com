@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro);
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans);
 /* Partials */
 /* Theme Vars */
 /* Compass Vars */
@@ -25,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   color: #999;
   text-rendering: optimizelegibility;
-  font-family: 'Advent Pro', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   /*font-family: 'Pontano Sans', sans-serif;*/
 }
 
@@ -408,4 +409,28 @@ div.sidebar section img.icon {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+}
+
+/* own improvements by proggeo */
+
+.posts li {
+  display: block;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  background: #202020;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  padding: 20px 20px 10px;
+  margin: 0px -20px 20px;
+  z-index: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-left-radius: 5px;
+  border-radius: 5px;
+}
+
+h1 a {
+    color: #999;
 }
