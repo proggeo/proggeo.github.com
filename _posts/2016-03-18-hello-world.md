@@ -2,8 +2,8 @@
 layout: post
 title: "First article[ENG/UKR]"
 description: ""
-category: 
-tags: []
+category: general
+tags: [eng, ukr, general]
 ---
 {% include JB/setup %}
 
