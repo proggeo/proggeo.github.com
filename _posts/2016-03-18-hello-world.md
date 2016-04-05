@@ -21,7 +21,7 @@ Since I usually use Ukrainian and English and want to make it for both English-s
 
 Have a nice day!
 
-# Вітаю у моєму блозі
+## Вітаю у моєму блозі
 
 Радий бачити, що хоч хтось це читає.
 

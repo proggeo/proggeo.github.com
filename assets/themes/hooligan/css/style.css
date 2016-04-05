@@ -434,3 +434,10 @@ div.sidebar section img.icon {
 h1 a {
     color: #999;
 }
+
+img {
+  max-width: 750px;
+  max-height: 500px;
+  display: block;
+  margin: auto;
+}
